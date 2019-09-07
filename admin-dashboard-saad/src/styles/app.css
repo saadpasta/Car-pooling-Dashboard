@@ -1,0 +1,74 @@
+/* responsive */
+@media only screen and (max-width: 767px) {
+  .login-mask {
+    display: none;
+  }
+}
+*:focus {
+  outline: none !important;
+}
+.login-hide {
+  display: block;
+}
+.remove-padding {
+  margin-right: auto;
+  margin-left: auto; 
+  padding: 0;
+}
+a, a:hover {
+  text-decoration: inherit;
+  color: inherit
+}
+.middle {
+  display: block;
+  margin: auto;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+input {
+  font-style: 'Avenir';
+  font-size: 18px;
+  width: 450px;
+  height: 60px;
+  border-radius: 4px;
+  border: solid 1px #d2cdcd;
+  background-color: rgba(249, 249, 249, 0);
+  margin: auto;
+  padding-left: 50px;
+  margin-bottom: -13px;
+}
+input.error {
+  border: 1px solid red;
+}
+body {
+  font-family: 'Avenir';
+  background-color: #F5F5F5
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0) inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+/* need to override webkit borders on input forms */
+
+select:-webkit-any() {
+  font-size: 18px;
+}
+
+/* input:-internal-autofill-selected {
+  background-color: transparent !important;
+  /* font-size: 300px; */
+  /* background-image: none !important;
+  color: rgb(0, 0, 0) !important;
+} */

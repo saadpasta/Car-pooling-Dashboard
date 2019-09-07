@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 300;
+    src: url('./fonts/AvenirBold.otf');
+  }
+
+  @font-face {
+    font-family: 'AvenirLight';
+    font-style: normal;
+    font-weight: 300;
+    src: url('./fonts/AvenirLight.otf');
+  }
+
+
+  html{
+    font-family: 'AvenirLight';
+  }
+  body{
+    font-family: 'AvenirLight';
+
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Avenir';
+  } 
+  h1 {
+    font-weight: 900;
+    letter-spacing: -0.78px;
+  }
+  h2 {
+    color: black;
+  }
+  h4 {
+    line-height: 1.28;
+    font-weight: 500;
+    font-size: 1.2em;
+  }
+  p{
+    font-family: 'AvenirLight';
+  }
+  

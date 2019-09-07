@@ -1,0 +1,142 @@
+/* responsive */
+@media only screen and (max-width: 767px) {
+    .login-right {
+      display: none;
+    }
+    .login-left {
+        margin: auto;
+    }
+    /* some of this is a little wonky - trying to fix mobile responsiveness -> issue{i think} = static width input boxes */
+    .login-alert, .login-form, .login-form-input-box {
+        float: center;
+    }
+    .login-row {
+        margin: auto;
+        float: center;
+    }
+    html {
+        margin: auto;
+        float: center;
+    }
+}
+
+.login-hide {
+    display: none;
+}
+
+/* structure */
+.login-row {
+    margin: 0px;
+}
+.login-left {
+    padding: 0px;
+    margin: 0px;
+}
+.login-right {
+    width: 60vh;
+    height: 100vh;
+    background-color: #f74236;
+    padding: 0px;
+}
+
+/* text */
+.login-right-text, .login-right-subtext {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.login-right-text {
+    padding-top: 15vh;
+}
+.login-right-subtext {
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    max-width: 80%;
+}
+.login-footer-text {
+    bottom: 0%;
+    position: fixed;
+    padding-left: 15px;
+    padding-bottom: 11px;
+    margin-bottom: 0px;
+}
+.login-logo {
+    width: 257px;
+    margin: auto;
+    padding-top: 23vh;
+    padding-bottom: 7vh;
+    display: block;
+}
+.login-form {
+    max-width: 450px;
+    margin: auto;
+}
+.login-form-input-box {
+    font-style: 'Avenir';
+    font-size: 18px;
+    width: 450px;
+    height: 60px;
+    border-radius: 4px;
+    border: solid 1px #d2cdcd;
+    background-color: rgba(249, 249, 249, 0);
+    margin: auto;
+    padding-left: 50px;
+    margin-bottom: -13px;
+}
+.login-form-forgot {
+    font-family: 'Avenir';
+    font-size: 16px;
+    color: #001423;
+    margin-top: 30px;
+    display: block;
+}
+.login-submit {
+    width: 287px;
+    height: 73px;
+    border-radius: 40px;
+    background-color: #f74236;
+    color: #fff;
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 1.51px;
+    border: none;
+    display: block;
+}
+.login-submit:hover, .login-submit:active {
+    background-color: #f74236;
+    opacity: .8;
+}
+.login-icon {
+    width: 19px;
+    margin-bottom: -80px;
+    margin-left: 20px;
+}
+.login-right-image {
+    height: auto;
+    width: 100%;
+}
+.error-message, .error-message-password {
+    font-family: 'Avenir';
+    font-weight: 500;
+    padding-top: 20px;
+    margin-bottom: -14px;
+    display: block;
+    color: #ec4747;
+}
+.error-message-password {
+    margin-bottom: 0px;
+}
+.login-alert {
+    position: absolute;
+    width: 100%;
+    margin-top: -58px;
+    width: 450px;
+    font-size: 12px;
+    font-stretch: condensed;
+    padding-left: 18px;
+    padding-right: 28px;
+}
+.close {
+    margin-top: -5px;
+    margin-right: -8px;
+}

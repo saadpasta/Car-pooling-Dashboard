@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.63b43709.chunk.css",
+    "main.js": "/static/js/main.42c209f4.chunk.js",
+    "main.js.map": "/static/js/main.42c209f4.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.bca2127e.chunk.js": "/static/js/2.bca2127e.chunk.js",
+    "static/js/2.bca2127e.chunk.js.map": "/static/js/2.bca2127e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.684ec3235908ebdc51d1fb20a45cde69.js": "/precache-manifest.684ec3235908ebdc51d1fb20a45cde69.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.63b43709.chunk.css.map": "/static/css/main.63b43709.chunk.css.map",
+    "static/media/app.css": "/static/media/Avenir.bdf47171.ttc"
+  }
+}
